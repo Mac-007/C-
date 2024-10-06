@@ -1,0 +1,75 @@
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (dynamic libraries)
+*.so
+*.dylib
+*.dll
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.core
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Auto-generated VSCode files
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~ 
+
+# Dependency directories (created by CMake, Autotools, etc.)
+/build/
+/dist/
+/Debug/
+/Release/
+
+# CLion IDE files
+.idea/
+cmake-build-*/
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.vcproj*
+ipch/
+*.pdb
+*.opendb
+*.VC.db
+.vscode/
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Qt
+*.moc
+*.qrc
+*.ui
+*.rcc
