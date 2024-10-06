@@ -15,6 +15,8 @@
 int main()
 {
     std::cout << "Hello, World!" << std::endl;  /* std::cout is short for "character output" */
+    // std - standard namespace, cout - character output
+
 
     /* std::endl is often used to move the cursor to the next line, similar to '\n', 
    but the key difference is that std::endl also forces a flush of the output buffer. 
@@ -45,5 +47,49 @@ int main()
  * This will print "Hello, World!" followed by a newline and flush the output stream.
  */
 
+/**
+ * "return 0" indicates successful completion of the program.
+ * It's a convention in C++ (and C) that a return value of 0 means 
+ * the program executed without errors, while any non-zero value 
+ * (like 1,2,3, -1,-2,-5 etc.) typically indicates an error or abnormal termination.
+ */
+
+// -------------------------------------------------------------------------------
+/**
+ * C++ Compilation and Execution Overview:
+ *
+ * 1. **Source Code**: 
+ *    - The code is written in `.cpp` files (e.g., `program.cpp`).
+ *
+ * 2. **Compilation**:
+ *    - The C++ source code is compiled using a compiler (e.g., g++, clang++).
+ *    - The compiler translates the C++ code into machine code.
+ *    - During compilation, the compiler generates:
+ *      - **Object Files** (`.o` or `.obj`): Intermediate files containing machine code.
+ *      - **Executable Files**: 
+ *        - On **Windows**, the output is typically a `.exe` file (e.g., `program.exe`).
+ *        - On **Linux**, the output is usually a binary executable (no extension, e.g., `program`).
+ *  
+ *      * . **Machine Code**:
+ *    - Machine code consists of binary instructions that the computer's CPU can 
+ *      directly execute.
+ *    - High-level languages (like C++) cannot be executed directly by the CPU because
+ *      they contain abstractions (functions, loops, objects) that the hardware does 
+ *      not understand.
+
+ * 3. **Linking**:
+ *    - After compilation, the linker combines object files and libraries to produce the final executable.
+ *
+ * 4. **Execution**:
+ *    - The resulting executable can be run directly:
+ *      - On **Windows**: Double-click `program.exe` or run from Command Prompt.
+ *      - On **Linux**: Use `./program` in the terminal.
+ *
+ * 5. **Output**:
+ *    - The program may produce output to the console or generate files as specified in the code.
+ *
+ * This process allows C++ programs to be efficiently converted from human-readable code 
+ * into machine-readable instructions, enabling them to run on different operating systems.
+ */
 
 
